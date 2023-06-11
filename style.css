@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+.second{
+    border-bottom: 1px solid grey;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.second1{
+    width: 33.3333%;
+    border-right: 1px solid grey;
+}
+.second2{
+    width: 33.3333%;
+    border-right: 1px solid grey;
+}
+.second3{
+    width: 33.3333%;
+}
+
+.third{
+    height: 320px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+.third1{
+    width: 50%;
+    border-right: 1px solid grey;
+}
